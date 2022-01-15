@@ -1,0 +1,466 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px auto;
+    background-color:#f1f1f1;
+
+}
+
+header{
+    background-color: rgb(82, 71, 71);
+    color: white;
+}
+/******************** top-banner starts********************/
+.half-width{
+    /* margin: 100px; */
+    width:50%;
+    /* margin-top: 5%; */
+    /* padding-left: 2%; */
+    height: 330px;
+}
+.top-banner{
+    display: flex;
+}
+.top-banner img:hover{
+    transform:rotate(360deg);
+    transition: transform 2s ease-in;
+    
+}
+.top-banner img{
+    width: 556px;
+    height: 438px;
+}
+.top-banner h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+.top-banner p{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+.link-btn{
+   
+        background-color: rgb(247, 28, 65);
+        padding: 15px 25px;
+        color: #ffffff;
+        font-size: 16px;
+        width: 84px;
+        height: 22px;
+        border-radius: 50px;
+
+}
+.half-width a{
+    text-decoration: none;
+}
+.popular{
+    text-align: center;
+    margin-top: 5%;
+}
+p{
+    font-size: 16px;
+    color: black;
+}
+.icon{
+    color: orange;
+}
+
+/*********************** top banner end ****************/
+
+/*********************** product card starts ****************/
+.product_image  img {
+    height: 256px;
+    width: 300px;
+  }
+
+  .text-2{
+    margin-left: 200px;
+    margin-bottom: 30px;
+} 
+  .products{
+      margin-right: 210px;
+      margin-left: 210px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 30px;
+  }
+  .sponsors{
+      margin-top: 100px;
+    /* margin-right: 210px;
+    margin-left: 210px; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+  .product{
+      height: 520px;
+      padding: 15px;
+      background-color: #FFFFFF;
+      border-radius: 5px;
+  }
+  .item {
+    display: flex;
+    padding: 20px;
+  }
+  .section-title{
+      text-align: center;
+      color: aquamarine;
+  }
+
+/********************* product cards end ******************/
+/****************** country card starts ****************/
+.countries {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+  .country {
+    display: flex;
+    justify-content: center;
+  }
+  .countries img {
+    width: 56px;
+    height: 56px;
+  }
+
+
+
+
+/****************** country card ends ****************/
+
+/********************* bottom banner starts ******************/
+  .bottom-half-width{
+    width:40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+  }
+  .text-2 a{
+    text-decoration: none;
+  }
+  .bottom-banner{
+    display: flex;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    margin-bottom: 5%;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 ;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    color: white;
+    padding: 3%;
+}
+.icons{
+    color: white;
+}
+.copyright p{
+    color: white;
+    text-align: center;
+
+}
+/* .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px;
+} */
+/* .bottom-banner img{
+    width: 567px;
+    height: 427px;
+
+} */
+/********************* bottom banner end ******************/
+/********************* footer starts ******************/
+
+.icons .fab{
+    align-items: center;
+    font-size: 32px;
+    margin: 0 10px;
+    color: #cbcbcb;
+    
+}
+.icons{
+    text-align: center; 
+}
+.text-1{
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
+.logo img{
+   height: 150px;
+   width: 150px;
+   margin-left: 10%;
+
+}
+
+.seeMore {
+display: flex;
+justify-content: flex-end;
+margin-right: -195%;
+
+}
+.seeMore a{
+    color: tomato;
+    text-decoration: none;
+    font-weight: bold;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1{
+    font-size: 2em;
+
+  }
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+      font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    transition: linear .25s all;
+    /* background-color: #f1f1f1; */
+  }
+  .card:hover  p{
+    color: white;
+}
+  .card:hover{
+    background-color:rgb(7, 7, 7);
+    color: white;
+
+  }
+  .popular h1{
+    font-size: 5em;
+
+  }
+/********************* footer ends ******************/
+/* mediaquery for mobile */
+  @media only screen and (max-width:688px){
+      .sponsors_item{
+          align-items: center;
+          justify-content: center;
+          display: grid;
+      }
+    .card {
+        font-size: 18px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      transition: linear .25s all;
+        }
+    .column{
+        width: 100%;
+        margin-bottom: 20px;
+     
+}
+.row{
+    display: grid;   
+    grid-template-columns: 1fr;
+    width: 100%;
+    overflow-x: hidden;
+}
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding:0 ;
+    }
+      .text-1{
+          height: 100%;
+      }
+    .half-width{
+        overflow: hidden;
+        padding: 10px;
+        width: 100%;
+        height: 450px;
+    }
+    .half-width img{
+        overflow-y: hidden;
+        height: 100%;
+        width: 100%;
+    }
+    .seeMore {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        border-radius: 50px;
+        }
+    .top-banner{
+        height: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+        /* width: 100%; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .top-banner img{
+        margin-left: 7%;
+        width: 329px;
+        height: 259.17px;
+    }
+    .link-btn{
+        background-color: rgb(247, 28, 65);
+        padding: 15px 15px;
+        color: #ffffff;
+        font-size: 16px;
+        width: 70px;
+        height: 20px;
+        border-radius: 50px;
+    }
+ 
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin:0;
+        background-color: #f1f1f1;
+    }
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin:0;
+        background-color: #f1f1f1;
+    }
+    .sponsors img{
+        height: 20px;
+        width: 50px;
+    }
+
+    .product_image{
+      justify-content: center;
+      display: grid;
+      margin: 0;
+      padding: 0;
+    }
+    .top-banner h1{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 80px;
+    }
+
+   .container{
+    width:100% ;
+    
+}
+.section-title h3{
+    text-align: center;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.country{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+.country img{
+    position: absolute;
+
+}
+    .item{
+        /* margin: 0;
+        padding:0; */
+        background-color: #f1f1f1;
+    }
+    .bottom-banner{
+        overflow-x: hidden;
+       width: 100%;
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+    }
+    .bottom-banner img{
+        width: 328px;
+        height: 248px;
+        /* margin: 0; */
+    }
+    .text-2{
+        /* text-align: left; */
+        width: 100%;
+        overflow-x: hidden;
+        height: 100%;
+    }
+  
+
+}
+/* mediaquery for tablet */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .seeMore {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        }
+    .top-banner{
+        display: flex;
+        margin-bottom: 50px;
+        height: 600px;
+    }
+    .top-banner img{
+        margin-top: 5%;
+        width: 329px;
+        height: 259.17px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin:0;
+        
+    }
+    .bottom-banner img{
+        width: 328px;
+        height: 248px;
+        margin: 0;
+    }
+    .bottom-banner{
+        display: flex;
+    }
+    .container{
+        width: 100%;
+    }
+    .countries{
+    grid-template-columns: repeat(2, 1fr); 
+    
+  }
+  .country img{
+    align-items: center;
+   
+  }
+}
